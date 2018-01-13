@@ -66,9 +66,11 @@ vendor/firmware/fimc_is_lib.bin
 vendor/firmware/mfc_fw.bin
 
 # Mobicore
+app/FFFFFFFF000000000000000000000001.drbin
 app/mcRegistry/ffffffff00000000000000000000002e.tlbin
 app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
 app/mcRegistry/ffffffffd00000000000000000000016.tlbin
+app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 vendor/lib/libMcClient.so:lib/libMcClient.so
 vendor/lib/libMcRegistry.so:lib/libMcRegistry.so
 
