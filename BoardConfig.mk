@@ -23,6 +23,26 @@ TARGET_OTA_ASSERT_DEVICE := on7xelte
 
 TARGET_KERNEL_CONFIG := lineage-on7xelte_defconfig
 
+# Virtual Display
+BOARD_USES_VIRTUAL_DISPLAY := true
+
+# Sensors
+TARGET_NO_SENSOR_PERMISSION_CHECK := true
+
+# Gralloc
+TARGET_USES_GRALLOC1_ADAPTER := true
+
+# ION
+TARGET_USES_ION := true
+
+# Boot animation
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
+
+# Include an expanded selection of fonts
+EXTENDED_FONT_FOOTPRINT := true
+
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
