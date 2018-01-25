@@ -11,7 +11,6 @@ etc/bluetooth/bt_stack.conf
 
 # Camera
 lib/hw/camera.universal7870.so
-lib/libcamera_metadata.so
 lib/libexynoscamera.so
 lib/libexynoscamera3.so
 lib/libseccameracore.so
@@ -35,10 +34,8 @@ vendor/lib/libHpr_LocFace_mvfd_v1.0.so
 
 # DRM
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
-vendor/lib/mediadrm/libwvdrmengine.so
 
 # Fingerprint
-bin/mcDriverDaemon
 lib/libbauthserver.so
 lib/libbauthtzcommon.so
 lib/libegis_fp_normal_sensor_test.so
@@ -52,8 +49,6 @@ lib/libfloatingfeature.so
 lib/libwrappergps.so
 
 # Graphics
-# Vulcan and OpenCL are implemented in this file,
-# so we create symlinks in setup-makefiles.sh.
 vendor/lib/egl/libGLES_mali.so
 lib/egl/egl.cfg
 lib/egl/libGLES_android.so
@@ -90,8 +85,8 @@ app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
 app/mcRegistry/ffffffffd00000000000000000000004.tlbin
 app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 app/mcRegistry/fffffffff0000000000000000000001e.tlbin
-vendor/lib/libMcClient.so:lib/libMcClient.so
-vendor/lib/libMcRegistry.so:lib/libMcRegistry.so
+vendor/lib/libMcClient.so
+vendor/lib/libMcRegistry.so
 
 # OMX
 lib/omx/libOMX.Exynos.AVC.Decoder.so
@@ -101,8 +96,6 @@ lib/omx/libOMX.Exynos.HEVC.Encoder.so
 lib/omx/libOMX.Exynos.VP8.Decoder.so
 
 # Radio
-bin/rild
-lib/libril.so
 lib/libsec-ril.so
 lib/libsecril-client.so
 lib/libaudio-ril.so
