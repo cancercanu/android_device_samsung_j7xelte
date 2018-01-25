@@ -67,7 +67,8 @@ ro.telephony.ril_class=SlteRIL
 import /efs/factory.prop
 ro.multisim.simslotcount=2
 
-persist.sys.usb.config=mtp
+# sdcardfs
+ro.sys.sdcardfs=false
 
 # Wifi
 wifi.interface=wlan0
