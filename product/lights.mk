@@ -17,4 +17,5 @@
 # Lights
 PRODUCT_PACKAGES += \
     lights.universal7870 \
+    android.hardware.power@1.0-service \
     android.hardware.light@2.0-impl
