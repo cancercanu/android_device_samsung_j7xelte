@@ -19,4 +19,5 @@ PRODUCT_PACKAGES += \
     fingerprintd \
     mcDriverDaemon \
     fingerprint.exynos5 \
-    libbauthtzcommon_shim
+    libbauthtzcommon_shim \
+    android.hardware.biometrics.fingerprint@2.1-service
