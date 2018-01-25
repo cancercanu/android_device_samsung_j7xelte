@@ -28,6 +28,7 @@ WIFI_DRIVER_NVRAM_PATH           := "/system/etc/wifi/nvram_net.txt"
 WIFI_DRIVER_FW_PATH_STA          := "/system/etc/wifi/bcmdhd_sta.bin"
 WIFI_DRIVER_FW_PATH_AP           := "/system/etc/wifi/bcmdhd_apsta.bin"
 WIFI_BAND                        := 802_11_ABG
+WPA_SUPPLICANT_USE_HIDL          := true
 
 # Wifi Macloader
 BOARD_HAVE_SAMSUNG_WIFI := true
