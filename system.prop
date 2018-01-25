@@ -50,6 +50,10 @@ debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 persist.sys.ui.hw=true
 
+# Load omx blobs
+media.stagefright.legacyencoder=1
+media.stagefright.less-secure=1
+
 #Fix poor gamming performance
 debug.egl.force_msaa=true
 
