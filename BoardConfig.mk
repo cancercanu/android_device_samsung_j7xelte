@@ -21,7 +21,7 @@ LOCAL_PATH := device/samsung/j7xelte
 
 TARGET_OTA_ASSERT_DEVICE := j7xelte
 
-TARGET_KERNEL_CONFIG := lineage_j7xelte_defconfig
+TARGET_KERNEL_CONFIG := lineage-j7xelte_defconfig
 
 # Virtual Display
 BOARD_USES_VIRTUAL_DISPLAY := true
