@@ -35,12 +35,6 @@ vendor/lib/libHpr_LocFace_mvfd_v1.0.so
 # DRM
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 
-# Fingerprint
-lib/libbauthserver.so
-lib/libbauthtzcommon.so
-lib/libegis_fp_normal_sensor_test.so
-lib/libsynaFpSensorTestNwd.so
-
 # GPS
 bin/gpsd
 etc/ca.pem
