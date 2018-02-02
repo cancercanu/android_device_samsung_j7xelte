@@ -1,2 +1,2 @@
-add_lunch_combo lineage_on7xelte-userdebug
-add_lunch_combo lineage_on7xelte-eng
+add_lunch_combo lineage_jxelte-userdebug
+add_lunch_combo lineage_jxelte-eng
